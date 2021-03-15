@@ -5,24 +5,24 @@ Bonjour et bienvenue dans l'équipe de la Rose dorée.
 Comme vous le savez, notre petite taverne située à proximité d'une cité importante est dirigée par l'amicale aubergiste Allison.
 
 Nous achetons et vendons uniquement les meilleurs produits.
-Malheureusement, la qualité de nos marchandises se dégrade constamment à l'approche de leur date de péremption.
+**Malheureusement, la qualité de nos marchandises se dégrade constamment à l'approche de leur date de péremption.**
 
-Un système a été mis en place pour mettre à jour notre inventaire.
+**Un système a été mis en place pour mettre à jour notre inventaire.**
 Il a été développé par Leeroy, une personne pleine de bon sens qui est parti pour de nouvelles aventures.
 
-Votre mission est d'ajouter une nouvelle fonctionnalité à notre système pour que nous puissions commencer à vendre un nouveau type de produits.
+**Votre mission est d'ajouter une nouvelle fonctionnalité à notre système pour que nous puissions commencer à vendre un nouveau type de produits.**
 
 Mais d'abord, laissez-moi vous présenter notre système :
 
-- Tous les éléments ont une valeur `sellIn` qui désigne le nombre de jours restant pour vendre l'article.
-- Tous les articles ont une valeur `quality` qui dénote combien l'article est précieux.
-- À la fin de chaque journée, notre système diminue ces deux valeurs pour chaque produit.
+- Tous les éléments ont une valeur `sellIn` qui désigne le **nombre de jours restant pour vendre l'article**.
+- Tous les articles ont une valeur `quality` qui dénote **combien l'article est précieux**.
+- À la fin de chaque journée, **notre système diminue ces deux valeurs pour chaque produit**.
 
 Plutôt simple, non ?
 
 Attendez, ça devient intéressant :
 
-- Une fois que la date de péremption est passée, la qualité se dégrade deux fois plus rapidement.
+- **Une fois que la date de péremption est passée, la qualité se dégrade deux fois plus rapidement.**
 - La qualité (`quality`) d'un produit ne peut jamais être négative.
 - "Aged Brie" augmente sa qualité (`quality`) plus le temps passe.
 - La qualité d'un produit n'est jamais de plus de 50.
